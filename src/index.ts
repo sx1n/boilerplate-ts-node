@@ -1,1 +1,3 @@
-const fname = 'samuel'
+const fname = "Samuel"
+
+console.log(fname)
