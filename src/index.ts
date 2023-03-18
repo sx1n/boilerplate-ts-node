@@ -1,3 +1,7 @@
-const fname = "Samuel"
+class Person {
+  sayMyName() {
+    return "Samuel";
+  }
+}
 
-console.log(fname)
+export default Person;
