@@ -5,21 +5,27 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
-    "husky:prepare": "husky install"
+    "husky:prepare": "husky install",
+    "test": "jest --passWithNoTests",
+    "test:watch": "yarn test --watch",
+    "test:staged": "yarn test --findRelatedTests"
   },
   "keywords": [],
   "author": "Samuel Laurindo",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.0",
     "@types/node": "^18.15.3",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
     "husky": "^8.0.3",
+    "jest": "^29.5.0",
     "lint-staged": "^13.2.0",
     "nodemon": "^2.0.21",
     "prettier": "^2.8.4",
+    "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
   }
