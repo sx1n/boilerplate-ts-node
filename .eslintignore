@@ -1,0 +1,9 @@
+jest.config.*
+dist
+.jest
+src/ui/assets/*
+yarn.lock
+.gitattributes
+.gitignore
+.prettierignore
+coverage

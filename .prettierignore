@@ -1,0 +1,7 @@
+dist
+.jest
+yarn.lock
+.gitattributes
+.gitignore
+.eslintignore
+coverage
