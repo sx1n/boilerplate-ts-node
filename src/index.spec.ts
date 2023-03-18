@@ -1,4 +1,4 @@
-import Person from ".";
+import Person from "@/index";
 
 it("should say my name", () => {
   const person = new Person();
